@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">扫描出入库</string>
+    <string name="inOut_setting_title">设置</string>
+    <string name="inOut_title">扫描出入库</string>
+    <string name="push_title">订单提示</string>
+    <string name="select_in_storage">入库</string>
+    <string name="select_out_storage">出库</string>
+
+    <string name="out_storage_channel">渠道</string>
+    <string name="out_storage_client">客户</string>
+    <string name="out_storage_media">媒体</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_back">返回</string>
+
+    <string name="submit_success">提交成功</string>
+    <string name="submit_fail">提交失败</string>
+
+    <string name="in_storage_success">入库成功</string>
+    <string name="in_storage_fail">入库失败</string>
+
+    <string name="submit_toast">正在提交数据，请耐心等待...</string>
+    <string name="out_storage_success">出库成功</string>
+    <string name="out_storage_fail">出库失败</string>
+
+    <string name="btn_next">下一步</string>
+    <string name="submit_title">提交信息</string>
+
+    <string name="qrCode_null">扫描二维码为空</string>
+
+    <string name="main_exit">再按一次退出！</string>
+
+    <string name="orderNo_isEmpty">出库订单号不能为空</string>
+    <string name="getOrder_success">请选取订单号</string>
+    <string name="getOrder_fail">获取出货订单失败</string>
+    <string name="again_load">加载失败，点击重新加载</string>
+
+
+
+</resources>

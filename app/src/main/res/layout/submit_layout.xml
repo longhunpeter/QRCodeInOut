@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    >
+
+    <RelativeLayout
+        android:id="@+id/submit_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/main_title_ground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/submit_title"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/btn_press"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="@string/btn_back"
+            android:textColor="#ffffff" />
+        />
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/btn_press"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="@string/btn_ok"
+            android:textColor="#ffffff" />
+        />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/setting_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/submit_title"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="#fffc2322"
+        />
+
+    <TextView
+        android:id="@+id/code_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_info"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="#fffc2322"
+        />
+
+    <TextView
+        android:id="@+id/submit_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/code_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:singleLine="false"
+        android:textColor="#0099CC"
+        android:textSize="16sp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/select_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/submit_status"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#dddddd"
+        android:visibility="gone"
+        >
+        <ListView
+            android:id="@+id/order_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:listSelector="@android:color/transparent"
+            />
+    <TextView
+        android:id="@+id/again_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        android:text="@string/again_load"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:background="#ffd2cfcb"
+        android:textSize="16sp"
+        android:visibility="gone"
+        />
+
+
+        <ProgressBar
+            android:id="@+id/get_order_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+
+        </RelativeLayout>
+
+
+</RelativeLayout>

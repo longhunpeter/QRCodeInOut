@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selected">
+
+    <TextView
+        android:id="@+id/order_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="测试订单"
+        android:textColor="#ffff5845"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/order_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="2014062300000000"
+        android:textColor="#ffff5845"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/order_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_number"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="20 件"
+        android:textColor="#ffff5845"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/order_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_count"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="1000.000.00"
+        android:textColor="#ffff5845"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/order_dealer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/order_amount"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="京东"
+        android:textColor="#ffff5845"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/order_dealer"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="5dp"
+        android:background="#393b2e1d" />
+
+</RelativeLayout>

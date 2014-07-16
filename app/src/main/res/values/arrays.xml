@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="inOut_name">
+        <item>入库</item>
+        <item>出库</item>
+        <item>退货</item>
+    </array>
+
+    <array name="out_name">
+        <item>渠道</item>
+        <item>客户</item>
+        <item>媒体</item>
+        <item>退回供应商</item>
+        <item>报废</item>
+        <item>其他</item>
+
+    </array>
+
+    <array name="return_name">
+        <item>测试良品</item>
+        <item>测试不良</item>
+        <item>待供应商分析</item>
+        <item>其他</item>
+    </array>
+
+    <array name="badness_name">
+        <item>退回不良品库</item>
+        <item>其他</item>
+    </array>
+
+    <integer-array name="inOut_code">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+
+    <integer-array name="out_code">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+
+    <integer-array name="return_code">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+
+    <integer-array name="badness_code">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+
+</resources>
