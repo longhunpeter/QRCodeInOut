@@ -18,7 +18,7 @@ import cn.jpush.android.api.JPushInterface;
  * Created by peter
  */
 public class BaseActivity extends Activity {
-    private final String TAG = "peter";
+    private final String TAG =this.getClass().getCanonicalName();
     protected MessageReceiver mMessageReceiver;
     protected String pushMessage;
 
